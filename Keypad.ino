@@ -77,14 +77,16 @@ for (int x=0; x<4; x = x + 1)
  Serial.print("test1: ");Serial.println(test1);   //Just for debugging purpose
  Serial.print("test2: ");Serial.println(test2);   //Just for debugging purpose
 }
-Serial.print("Approved = "); Serial.println(result);
-
+Serial.print("Approved = "); Serial.println(result); //Just for debugging purpose
+if(result == 1)
+{
+	Serial.println("ACCESS GRANTED");
+}
+else
+{
+	Serial.println("ACCESS DENIED");
+}
     count = 0;
   }
 }
-   /* if (count==17)
-    {
-      lcd.clear();
-      count=0;
-    }
-    */
+  
