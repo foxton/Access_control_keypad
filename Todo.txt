@@ -1,0 +1,7 @@
+Add posibility to change password via keypad.
+
+Play audio sample when pressing a button.
+
+Add LCD display to circuit
+
+Create functions for input, password check (returns true/false)
