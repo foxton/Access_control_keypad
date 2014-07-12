@@ -1,0 +1,4 @@
+V 0.1
+Keypad reads input and compares to hard-coded password,
+prints result in serial monitor.
+
